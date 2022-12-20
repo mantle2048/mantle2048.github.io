@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zhaoming Xie</title>
+    <meta name="description" content="Some of Yan's research highlights.">
+    
+    <meta property="og:title" content="Yan Ma">
+    <meta property="og:description" content="Some of Yan's research highlights.">
+    <meta property="og:image" content="/static/portrait.webp">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="/static/portrait.webp">
+    <meta property="og:url" content="https://mantle2048.github.io/">
+    <link rel="canonical" href="https://mantle2048.github.io/">
+
+    <style>
+      :root {
+        --accent-color: rgb(6, 69, 173);
+        --fg-color: rgb(32, 33, 34);
+        --bg-color: #fff;
+        --max-content-width: 800px;
+      }
+
+      body {
+        font-family: sans-serif;
+        font-size: calc(12px + 0.05vw);
+        color: var(--fg-color);
+        background-color: var(--bg-color);
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      main {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 90vw;
+        max-width: var(--max-content-width);
+        padding: 2rem 0;
+        background-color: var(--bg-color);
+        min-height: 90vh;
+        
+      }
+
+      h1, h2 {
+        font-weight: 600;
+        margin-top: 1.3em;
+      }
+
+      h1 {
+        font-size: 2.2em;
+      }
+
+      h2 {
+        font-size: 1.9em;
+      }
+
+      p, li {
+        font-size: 1.3em;
+        line-height: 1.6;
+      }
+
+      ul {
+        padding-left: 2em;
+      }
+
+      #publist {
+        padding-left: 0; 
+      }
+
+      #publist > * {
+        margin-bottom: 1.2em;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      a {
+        text-decoration: underline;
+        color: var(--fg-color);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .pub-fig {
+        flex: 0.6 1 20%;
+        min-width: 120px;
+        max-width: 200px;
+        margin-right: 2%;
+      }
+      
+      .pub-text {
+        flex: 1 1 75%;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <div style="display: inline-block; vertical-align: middle; padding-right: 6%;">
+          <h1 style="margin: 0;">Zhaoming Xie</h1>
+          <p style="margin: 0 0 1em 0;">zxie47@cs.ubc.ca</p>
+        </div>
+        <!-- <div style="display: inline-block; vertical-align: middle; width: 128px;">
+          <img alt="portrait" src="/static/portrait.webp" width="222" height="222" style="border-radius: 50%;">
+        </div> -->
+      </div>
+      <p style="font-size: 1.4em;">
+        I am a third year postgraduate at Fudan University, supervised by Professor <a href=""https://scholar.google.co.uk/citations?user=AG3OXS0AAAAJ&hl=en> Wei Li</a>. Previously, I obtained my bachelor's degree in computer science at <a href=""https://www.dlut.edu.cn/ Dalian University of Technology, advised by Professor <a href="http://www.cs.ubc.ca/~van/">Michiel van de Panne</a>. I completed my BEng in Computer Engineering at the Hong Kong University of Science and Technology and MS in Electrical Engineering and Mathematics at the Georgia Institute of Technology. I also did internships with NVIDIA, Intel and Electronic Arts. My research focuses on reinforcement learning for robotics and physics-based character animation.
+      </p>
+      <!-- <p><span style="font-weight: 600">News</span>: I will join Adobe Research as an intern in May 2021.</p> -->
+      <p>
+        <a href="https://github.com/ZhaomingXie">GitHub</a>
+        /
+        <a href="https://scholar.google.ca/citations?user=qDsqFkMAAAAJ&hl=en">Google Scholar</a>
+      </p>
+      <h2>Publications</h2>
+      <ul id="publist">
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/SoccerJuggle/SoccerJuggle.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+               Learning Soccer Juggling Skills with Layer-wise Mixture-of-Experts. <span style="font-weight: 600;">Zhaoming Xie</span>, Sebastian Starke, Hung Yu Ling, Michiel van de Panne. <span style="font-style: italic;">In Proceedings of SIGGRAPH 2022</span>
+            <div>
+              <a href="https://www.cs.ubc.ca/~van/papers/2022-SIGGRAPH-juggle/index.html">Project Page</a>
+              /
+              <a href="/projects/SoccerJuggle/SoccerJuggle.pdf">Paper</a>
+              /
+              <a href="https://youtu.be/PmrRHrxQd8g">Video</a>
+              /
+              <a href="https://github.com/ZhaomingXie/soccer_juggle_release">Code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/Glide/Glide.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+               GLiDE: Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model. <span style="font-weight: 600;">Zhaoming Xie</span>, Xingye Da, Buck Babich, Animesh Garg, Michiel van de Panne. <span style="font-style: italic;">Workshop on the Algorithmic Foundations of Robotics (WAFR), 2022</span>
+            <div>
+              <a href="/projects/Glide/Glide.pdf">Paper</a>
+              /
+              <a href="https://youtu.be/m4scMY8LcmQ">Video</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/FlexMO/rep-flexmo.webp" width="200" height="112">
+          </div>
+          <div class="pub-text">
+            Flexible Motion Optimization with Modulated Assistive Forces. Nam Hee Kim*, Hung Yu Ling*,  <span style="font-weight: 600;">Zhaoming Xie</span>, Michiel van de Panne. <span style="font-style: italic;">Symposium on Computer Animation (SCA), 2021.</span>
+            <div>
+              <a href="/projects/FlexMO/2021-FlexMO.pdf">Paper</a>
+              /
+              <a href="https://www.youtube.com/watch?v=7COrzckuQLw">Video</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/Sim2RealLaikago/Sim2RealLaikago.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+              Dynamics Randomization Revisited: A Case Study for Quadrupedal Locomotion. <span style="font-weight: 600;">Zhaoming Xie</span>, Xingye Da, Michiel van de Panne, Buck Babich, Animesh Garg. <span style="font-style: italic;">IEEE International Conference on Robotics and Automation (ICRA), 2021</span>
+            <div>
+              <a href="/projects/Sim2RealLaikago/Sim2RealLaikago.pdf">Paper</a>
+              /
+              <a href="https://youtu.be/vaivdkRwqAg">Video</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/ContactAdaptive/ContactAdaptive.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+             Learning a Contact-Adaptive Controller for Robust, Efficient Legged Locomotion. Xinye Da, <span style="font-weight: 600;">Zhaoming Xie</span>, David Hoeller, Byron Boots, Animashree Anandkumar, Yuke Zhu, Buck Babich, Animesh Garg. <span style="font-style: italic;">Conference on Robot Learning (CoRL), 2020.</span>
+            <div>
+              <a href="/projects/ContactAdaptive/ContactAdaptive.pdf">Paper</a>
+              /
+              <a href="https://youtu.be/JJOmFZKpYTo">Video</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/ALLSTEPS/rep-step.webp" width="200" height="119">
+          </div>
+          <div class="pub-text">
+            ALLSTEPS: Curriculum-driven Learning of Stepping Stone Skills. <span style="font-weight: 600;">Zhaoming Xie*</span>, Hung Yu Ling*, Nam Hee Kim, Michiel van de Panne. <span style="font-style: italic;">Symposium on Computer Animation (SCA), 2020.</span><span style="font-weight: 600;"> Best Paper Award </span>
+            <div>
+              <a href="/projects/ALLSTEPS/2020-ALLSTEPS.pdf">Paper</a>
+              /
+              <a href="https://sites.google.com/view/l2cds">Project</a>
+              /
+              <a href="https://github.com/belinghy/SteppingStone">Code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="/projects/L2CDS/L2CDS.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+             Learning to Correspond Dynamical Systems. Nam Hee Kim, <span style="font-weight: 600;">Zhaoming Xie</span>, Michiel van de Panne. <span style="font-style: italic;">Learning for Dynamics and Control (L4DC), 2020.</span>
+            <div>
+              <a href="/projects/L2CDS/L2CDS.pdf">Paper</a>
+              /
+              <a href="https://sites.google.com/view/l2cds">Website</a>
+              /
+              <a href="https://youtu.be/6DVuuQcVerQ">Video</a>
+              /
+              <a href="https://github.com/namheegordonkim/l2cds">Code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-symm" src="/projects/Sim2RealCassie/Sim2RealCassie.png" width="200" height="137">
+          </div>
+          <div class="pub-text">  
+             Learning Locomotion Skills for Cassie: Iterative Design and Sim-to-Real. <span style="font-weight: 600;">Zhaoming Xie</span>, Patrick Clary, Jeremy Dao, Pedro Morais, Jonathan Hurst, Michiel van de Panne. <span style="font-style: italic;">Conference on Robot Learning (CoRL), 2019.</span>
+            <div>
+              <a href="/projects/Sim2RealCassie/Sim2RealCassie.pdf">Paper</a>
+              / 
+              <a href="https://youtu.be/TgFrcrARao0">Video</a>
+              /
+              <a href="https://github.com/ZhaomingXie/cassie_rl_env">Code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-symm" src="/projects/SymmetricRL/rep-symm.webp" width="200" height="137">
+          </div>
+          <div class="pub-text">  
+            On Learning Symmetric Locomotion. Farzad Abdolhosseini, Hung Yu Ling, <span style="font-weight: 600;">Zhaoming Xie</span>, Xue Bin Peng, Michiel van de Panne. <span style="font-style: italic;">Motion, Interaction and Games (MIG), 2019.</span>
+            <span style="display: block; font-style: italic; font-size: 0.8em;">Also presented at Workshop on Deep Reinforcement Learning (NeurIPS) 2019.</span>
+            <div>
+              <a href="/projects/SymmetricRL/2019-SymmetricRL.pdf">Paper</a>
+              / 
+              <a href="https://www.youtube.com/watch?v=GwBqmk3FL-g">Talk</a>
+              /
+              <a href="/projects/SymmetricRL/2019-SymmetricRL-Poster.pdf">Poster</a>
+              /
+              <a href="https://github.com/UBCMOCCA/SymmetricRL">Code</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-sim" src="/projects/CassieFeedback/CassieFeedback.png" width="200" height="137">
+          </div>
+          <div class="pub-text">  
+              Feedback Control For Cassie With Deep Reinforcement Learning. <span style="font-weight: 600;">Zhaoming Xie</span>, Glen Berseth, Patrick Clary, Jonathan Hurst, Michiel van de Panne. <span style="font-style: italic;"> IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018.</span>
+            <div>
+              <a href="/projects/CassieFeedback/CassieFeedback.pdf">Paper</a>
+              / 
+              <a href="https://youtu.be/z3DMKQwt68Y">Video</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-sim" src="/projects/CDDP/CDDP.png" width="200" height="137">
+          </div>
+          <div class="pub-text">  
+             Differential Dynamic Programming with Nonlinear Constraints. <span style="font-weight: 600;">Zhaoming Xie</span>, C. Karen Liu, Kris Hauser. <span style="font-style: italic;"> IEEE International Conference on Robotics and Automation (ICRA), 2017.</span>
+            <div>
+              <a href="/projects/CDDP/CDDP.pdf">Paper</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-sim" src="/projects/Sim2RealHumanoid/simulationBasedDesign.png" width="200" height="137">
+          </div>
+          <div class="pub-text">  
+            Simulation-based design of dynamic controllers for humanoid balancing. Jie Tan, <span style="font-weight: 600;">Zhaoming Xie</span>, Byron Boots, C. Karen Liu. <span style="font-style: italic;"> IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2016.</span>
+            <div>
+              <a href="/projects/Sim2RealHumanoid/simulationBasedDesign.pdf">Paper</a>
+              / 
+              <a href="https://youtu.be/amV5EglzxNY">Video</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <h2>Service</h2>
+      <ul>
+        <li>Reviewer for ICRA, IROS, RSS, CoRL, Neurips, ICLR</li>
+      </ul>
+    </main>
+  </body>
+</html>
