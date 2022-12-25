@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yan Ma</title>
-    <link rel="shortcut icon" href="/images/icon.png">
+    <link rel="shortcut icon" href="./images/icon.png">
     <meta name="description" content="Some of Yan's research highlights.">
     
     <meta property="og:title" content="Yan Ma">
@@ -98,6 +98,10 @@
       
       .pub-text {
         flex: 1 1 75%;
+      },
+      .circle_image {
+        width: 250px;
+        border-radius: 40px;
       }
 
     </style>
@@ -111,9 +115,9 @@
           <h1 style="margin: 0;">Yan Ma &nbsp; 马 琰</h1>
           <p style="margin: 0 0 1em 0;">mayan20@fudan.edu.cn</p>
         </div>
-        <!-- <div style="display: inline-block; vertical-align: middle; width: 128px;">
-          <img alt="portrait" src="/static/portrait.webp" width="222" height="222" style="border-radius: 50%;">
-        </div> -->
+        <div style="display: inline-block; vertical-align: middle; width: 80px;">
+          <img alt="portrait" src="./images/icon.png" width=222 height="222" style="border-radius: 50%;">
+        </div>
       </div>
       <p>
         I am a third-year postgraduate student at <a href="https://www.fudan.edu.cn/en/"> Fudan University</a>, supervised by <a href="https://scholar.google.co.uk/citations?user=AG3OXS0AAAAJ&hl=en"> Prof. Wei Li</a>. Previously, I obtained my bachelor's degree in computer science at <a href="https://www.dlut.edu.cn/"> Dalian University of Technology</a>. In September, 2020, I was admitted to study for a master degree in Fudan University without entrance examination. I also did an internship at Netease Games from July, 2022 to September, 2022. My previous research work can be summarized as discovering high-quality and diverse solutions with reinforcement learning, generative model and evolutionary algorithms. Especially, I focus on simulated robotic control tasks.
@@ -136,6 +140,59 @@
         &nbsp;/&nbsp;
         <a href="https://www.zhihu.com/people/_mantle">Zhihu</a>
       </p>
+      <h2>Publications</h2>
+      <ul id="publist">
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="./projects/EAS/EAS.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+              Evolutionary Action Selection for Gradient-based Policy Learning<br>
+              <span style="font-weight: 600;">Yan Ma</span>, Tianxing Liu, Bingsheng Wei, Yi Liu, Kang Xu, Wei Li
+              <span style="font-style: italic;">International Conference on Neural Information Processing (ICONIP), 2022 (Oral)</span>
+            <div>
+              <a href="./projects/EAS/EAS.pdf">Paper</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="./projects/DiR/DiR.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+              Open-Ended Diverse Solution Discovery with Regulated Behavior Patterns for Cross-Domain Adaptation<br>
+              Kang Xu, <span style="font-weight: 600;"> Yan Ma</span>, Bingsheng Wei, Wei Li
+              <span style="font-style: italic;">Association for the Advancement of Artificial Intelligence (AAAI), 2023</span>
+            <div>
+              <a href="./projects/DiR/DiR.pdf">Paper</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <h2>Course Notes</h2>
+      <ul id="courselist">
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="./projects/GAMES105/GAMES105.jpg" width="200" height="119">
+          </div>
+          <div class="pub-text">
+              GAMES-105: Fundamentals of Computer Character Animation <br>
+              <div>
+                Lecturer: <a href="http://libliu.info/">Libin Liu</a>
+                /
+                <a href="https://games-105.github.io/">Website</a>
+                /
+                <a href="https://www.bilibili.com/video/BV1GG4y1p7fF/?spm_id_from=333.999.0.0&vd_source=8d41e80238782769853be9a1c53024bc">Recordings</a>
+              </div>
+              <span style="font-style: italic;">(I'm studying this wonderful course in my leisure time. If you are the same or you are interested in it, please let me know. We can learn together as partners!)</span>
+            <div>
+              <a href="./projects/GAMES105/lec2.pdf">Lec2</a>
+              /
+              <a href="./projects/GAMES105/lec3.pdf">Lec3</a>
+            </div>
+          </div>
+        </li>
+      </ul>
     </main>
   </body>
 </html>
