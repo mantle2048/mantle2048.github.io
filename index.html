@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yan Ma</title>
+    <title>Yan Ma's Homepage</title>
     <link rel="shortcut icon" href="./images/icon.png">
     <meta name="description" content="Some of Yan's research highlights.">
     
@@ -80,8 +80,13 @@
       }
 
       a {
-        text-decoration: underline;
-        color: var(--fg-color);
+          color: #1772d0;
+          text-decoration: none;
+      }
+      <!--a: focus,-->
+      a:hover {
+          color: #f09228;
+          text-decoration: none;
       }
 
       img {
@@ -105,35 +110,33 @@
       }
 
     </style>
-
   </head>
 
   <body>
     <main>
       <div>
-        <div style="display: inline-block; vertical-align: middle; padding-right: 6%;">
-          <h1 style="margin: 0;">Yan Ma &nbsp; 马 琰</h1>
-          <p style="margin: 0 0 1em 0;">mayan20@fudan.edu.cn</p>
+        <div style="display: inline-block; vertical-align: middle; width: 145px;">
+          <img alt="portrait" src="./images/icon.png" width=222 height="222" style="border-radius: 0%;">
         </div>
-        <div style="display: inline-block; vertical-align: middle; width: 80px;">
-          <img alt="portrait" src="./images/icon.png" width=222 height="222" style="border-radius: 50%;">
+        <div style="position: relative; display: inline-block; vertical-align: middle; padding-top: 3%; padding-right: 6%; padding-left: 8%">
+          <h1 style="margin: 0;">Yan Ma &nbsp; 马 琰</h1>
+          <p style="margin: 0 0 1em 0;" align="left">
+            <font size="3"><code>mayan20 [at] fudan [dot] edu [dot] cn</code></font><br>
+            <font size="3">PhD Candidate</font><br>
+            <font size="3"><a href="https://cs.fudan.edu.cn/">Department of Computer Science</a></code> <br>
+            <font size="3"><a href="https://www.fudan.edu.cn/en/">Fudan University</a></font>
+          </p>
         </div>
       </div>
       <p>
-        I am a third-year postgraduate student at <a href="https://www.fudan.edu.cn/en/"> Fudan University</a>, supervised by <a href="https://scholar.google.co.uk/citations?user=AG3OXS0AAAAJ&hl=en"> Prof. Wei Li</a>. Previously, I obtained my bachelor's degree in computer science at <a href="https://www.dlut.edu.cn/"> Dalian University of Technology</a>. In September, 2020, I was admitted to study for a master degree in Fudan University without entrance examination. I also did an internship at Netease Games from July, 2022 to September, 2022. My previous research work can be summarized as discovering high-quality and diverse solutions with reinforcement learning, generative model and evolutionary algorithms. Especially, I focus on simulated robotic control tasks.
-      </p>
-      <p>
-      Currently, I'm obsessed with AI-driven, physics-based character animation, which is an interdisciplinary research of computer graphics and deep learning. Since my enthusiasm to watch athletic sports, I desire simulated characters can perform atheletic skills like professional athletes. To that end, I wrote a brief research proposal <a href="./projects/RP.pdf"> <i>Learn to Sprint 100 Metres</i></a>, which discusses viable reinforcement learning techniques for atheletic skill learning by taking the 100-metre as an example.
-      </p>
-      <p>
-      <strong>I am looking for a PhD position of reinforcement learning, character animation, or robotic control. Of course, I'm also open to any other interesting research direction.</strong><br>
-          Please feel free to contact me !
+      I am a first year PhD Candidate of Computer Science at Fudan University, advised by Prof. <a href="http://mmlab.siat.ac.cn/yuqiao/index.html"> Qiao Yu</a>.
+      Previously, I received my bachelor's degree from Dalian University of Technology in 2020 and my master's degree from Fudan University in 2023, where I was advised by Prof. <a href="https://scholar.google.co.uk/citations?user=AG3OXS0AAAAJ&hl=en"> Wei Li</a>.
       </p>
       <p>
         <a href="./projects/CV.pdf">CV</a>
         &nbsp;/&nbsp;
-        <a href="./projects/RP.pdf">Research Proposal</a>
-        &nbsp;/&nbsp;
+        <!-- <a href="./projects/RP.pdf">Research Proposal</a> -->
+        <!-- &nbsp;/&nbsp;                                     -->
         <a href="https://github.com/mantle2048">GitHub</a>
         &nbsp;/&nbsp;
         <a href="https://scholar.google.co.jp/citations?user=tnJyAAoAAAAJ&hl=en">Google Scholar</a>
@@ -142,19 +145,6 @@
       </p>
       <h2>Publications</h2>
       <ul id="publist">
-        <li>
-          <div class="pub-fig">
-            <img alt="rep-step" src="./projects/Thesis/QD-RL.png" width="200" height="119">
-          </div>
-          <div class="pub-text">
-              Quality-Diversity Reinforcement Learning for Motion Control Tasks<br>
-              <span style="font-weight: 600;"> Yan Ma</span>,
-              <span style="font-style: italic;">Master Thesis of Fudan University, 2023</span>
-            <div>
-              <a href="https://sites.google.com/view/yan-master-thesis/">Website</a>
-            </div>
-          </div>
-        </li>
         <li>
           <div class="pub-fig">
             <img alt="rep-step" src="./projects/DiR/DiR.png" width="200" height="119">
@@ -182,6 +172,21 @@
           </div>
         </li>
       </ul>
+      <h2>Thesis</h2>
+      <ul id="publist">
+        <li>
+          <div class="pub-fig">
+            <img alt="rep-step" src="./projects/Thesis/QD-RL.png" width="200" height="119">
+          </div>
+          <div class="pub-text">
+              Quality-Diversity Reinforcement Learning for Motion Control Tasks<br>
+              <span style="font-weight: 600;"> Yan Ma</span>,
+              <span style="font-style: italic;">Master Thesis of Fudan University, 2023</span>
+            <div>
+              <a href="https://sites.google.com/view/yan-master-thesis/">Website</a>
+            </div>
+          </div>
+        </li>
       <h2>Course Notes</h2>
       <ul id="courselist">
         <li>
@@ -210,3 +215,13 @@
     </main>
   </body>
 </html>
+<!--<p>-->
+  <!--I am a third-year postgraduate student at <a href="https://www.fudan.edu.cn/en/"> Fudan University</a>, supervised by <a href="https://scholar.google.co.uk/citations?user=AG3OXS0AAAAJ&hl=en"> Prof. Wei Li</a>. Previously, I obtained my bachelor's degree in computer science at <a href="https://www.dlut.edu.cn/"> Dalian University of Technology</a>. In September, 2020, I was admitted to study for a master degree in Fudan University without entrance examination. I also did an internship at Netease Games from July, 2022 to September, 2022. My previous research work can be summarized as discovering high-quality and diverse solutions with reinforcement learning, generative model and evolutionary algorithms. Especially, I focus on simulated robotic control tasks.-->
+  <!--</p>-->
+<!--<p>-->
+  <!--Currently, I'm obsessed with AI-driven, physics-based character animation, which is an interdisciplinary research of computer graphics and deep learning. Since my enthusiasm to watch athletic sports, I desire simulated characters can perform atheletic skills like professional athletes. To that end, I wrote a brief research proposal <a href="./projects/RP.pdf"> <i>Learn to Sprint 100 Metres</i></a>, which discusses viable reinforcement learning techniques for atheletic skill learning by taking the 100-metre as an example.-->
+<!--</p>-->
+<!--<p>-->
+<!--<strong>I am looking for a PhD position of reinforcement learning, character animation, or robotic control. Of course, I'm also open to any other interesting research direction.</strong><br>-->
+<!--Please feel free to contact me !-->
+<!--</p>-->
