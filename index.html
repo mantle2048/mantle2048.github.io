@@ -27,7 +27,7 @@
       }
 
       body {
-        height: 1100px;
+        height: 50px;
         width: 1050px;
         transform: scale(0.75); /* reduce by 80% */
         font-family: sans-serif;
@@ -96,13 +96,22 @@
         text-decoration: none;
       }
 
+      orange {
+        color: #f09228;
+      }
+
       img {
         width: 100%;
         height: auto;
       }
 
+      star-img {
+        /* width: 100%; */
+        /* height: auto; */
+      }
+
       .pub-fig {
-        flex: 0.6 1 23%;
+        flex: 0.6 1 50%;
         min-width: 120px;
         max-width: 200px;
         margin-right: 2%;
@@ -126,7 +135,7 @@
         width: 200px;
         display: inline-block;
         vertical-align: middle;
-        border-radius: 10%;
+        border-radius: 100%;
       }
       .faceImg {
         background: url(./images/icon.png) no-repeat;
@@ -152,7 +161,7 @@
   <body>
     <main>
       <div>
-        <div class="faceImg"></div>
+        <div class="faceImg" , style="margin-left: 180px"></div>
         &nbsp;
         <div
           style="
@@ -160,18 +169,21 @@
             display: inline-block;
             vertical-align: middle;
             padding-top: 1%;
-              padding-right: 6%;
-              padding-left: 8%;
-            "
+            padding-right: 6%;
+            padding-left: 6%;
+          "
+        >
+          <h1 style="margin: 0">Yan Ma &nbsp; 马 琰</h1>
+          <p style="line-height: 1; margin: 0 0 0.75em 0" align="center">
+            <font size="4.5"
+              ><code>yanma23 [at] m [dot] fudan [dot] edu [dot] cn</code></font
+            ><br />
+          </p>
+          <p
+            style="line-height: 1.25; margin: 1.5em 0.5em 0.25em 0"
+            align="left"
           >
-            <h1 style="margin: 0">Yan Ma &nbsp; 马 琰</h1>
-            <p style="line-height: 1; margin: 0 0 0.75em 0" align="center">
-              <font size="4.5"
-                ><code>yanma23 [at] m [dot] fudan [dot] edu [dot] cn</code></font
-              ><br />
-            </p>
-            <p style="line-height: 1.25; margin: 0 0.5em 0.25em 0" align="left">
-              <font size="4">Ph.D. Student</font><br />
+            <font size="4">Ph.D. Student</font><br />
             <font size="4"
               ><a href="https://cs.fudan.edu.cn/"
                 >Department of Computer Science</a
@@ -188,7 +200,7 @@
         I am a first-year Ph.D. student from the Department of Computer Science
         at Fudan University, advised by Prof.
         <a href="http://pfliu.com/"> Pengfei Liu</a> and Prof.
-        <a href="https://mmlab.siat.ac.cn/yuqiao/"> Qiao Yu</a>. Previously, I
+        <a href="https://mmlab.siat.ac.cn/yuqiao/"> Yu Qiao</a>. Previously, I
         earned my master's degree from Fudan University in 2023, under the
         guidance of Prof.
         <a
@@ -198,41 +210,63 @@
         >. Prior to that, I was an undergraduate student of Computer Science at
         Dalian University of Technology from 2016 to 2020.
       </p>
-      <p>
-        <a href="./projects/CV.pdf">CV</a>
-        &nbsp;/&nbsp;
-        <a href="https://github.com/mantle2048">GitHub</a>
-        &nbsp;/&nbsp;
-        <a href="https://scholar.google.co.jp/citations?user=tnJyAAoAAAAJ&hl=en"
-          >Google Scholar</a
-        >
-        &nbsp;/&nbsp;
-        <a href="https://www.zhihu.com/people/_mantle">Zhihu</a>
-      </p>
+      <center>
+        <p>
+          <a href="./projects/CV.pdf">Resume</a>
+          &nbsp;/&nbsp;
+          <a href="https://github.com/mantle2048">GitHub</a>
+          &nbsp;/&nbsp;
+          <a
+            href="https://scholar.google.co.jp/citations?user=tnJyAAoAAAAJ&hl=en"
+            >Google Scholar</a
+          >
+          &nbsp;/&nbsp;
+          <a href="https://www.zhihu.com/people/_mantle">Zhihu</a>
+        </p>
+      </center>
       <h2>Research</h2>
       <hr />
       <p>
-        My research interest focuses on enhancing the capabilities of foundation
-        models in the field of science disciplines, such as college mathematics,
-        and addressing complex reasoning problems. Additionally, I am highly
-        interested in the areas of reinforcement learning and simulated
-        robotics. I firmly believe that the convergence of these three
-        fascinating fields will pave the way towards intelligence.
+        I have a broad interest in
+        <strong>Creating and Generating Virtual Content</strong>. Currently, my
+        primary research interests lie in language model-driven storytelling,
+        including:
+      </p>
+
+      <ul>
+        <li>High-quality and Diverse Long Text-based Narratives</li>
+      </ul>
+      <ul>
+        <li>Vision-Text Consistent Multi-modal Storytelling</li>
+      </ul>
+      <ul>
+        <li>Video Storytelling / Physically-aware World Model</li>
+      </ul>
+      <p>
+        Additionally, influenced by my past research experiences, I am also
+        intrigued by Decision-making based on Reinforcement Learning and
+        Physics-based Character Animation.
       </p>
       <h2>Education</h2>
       <hr />
       <ul>
-        <li>2023.9-Now: <strong>Ph.D. student</strong> in Computer Science, Fudan University</li>
         <li>
-          2020.9-2023.6: <strong>M.S.</strong> in Computer Application Technology, Fudan
+          <span style="font-style: italic"> 2023.09 - &nbsp;&nbsp; Now</span
+          >&nbsp;&nbsp; : <strong>Ph.D. student</strong> in Computer Science,
+          Fudan University
+        </li>
+        <li>
+          <span style="font-style: italic"> 2020.09 - 2023.06</span> :
+          <strong>M.S.</strong> in Computer Application Technology, Fudan
           University
         </li>
         <li>
-          2016.9-2020.6: <strong>B.Eng.</strong> in Computer Science, Dalian University of
+          <span style="font-style: italic"> 2016.09 - 2020.06</span> :
+          <strong>B.Eng.</strong> in Computer Science, Dalian University of
           Technology
         </li>
       </ul>
-      <h2>Publications</h2>
+      <h2>Publication</h2>
       <hr />
       <ul id="publist">
         <li>
@@ -322,7 +356,7 @@
               >)</span
             >, 2022
             <div>
-              <a href="https://dl.acm.org/conference/gecco"
+              <a href="https://dl.acm.org/doi/abs/10.1145/3512290.3528761"
                 >paper</a
               >
             </div>
@@ -331,7 +365,7 @@
         <li>
           <div class="pub-fig">
             <img
-              alt="rep-step"
+              alt="EAS Logo"
               src="./projects/EAS/EAS.png"
               width="200"
               height="119"
@@ -365,24 +399,52 @@
           </div>
         </li>
       </ul>
-      <h2>Projects</h2>
+      <h2>Project</h2>
       <hr />
       <ul id="publist">
         <li>
           <div class="pub-fig">
             <img
-              alt="dotfiles"
-              src="https://github.com/mantle2048/my_assets/raw/master/dotfiles.png"
-              width="200"
-              height="119"
+              alt="Awesome Story Generation Logo"
+              src="./projects/StoryGeneration/S1.png"
             />
+          </div>
+          <div class="pub-text">
+            <a href="https://github.com/yingpengma/Awesome-Story-Generation"
+              ><strong>Awesome-Story-Generation</strong></a
+            >
+            <img
+              alt=""
+              src="https://img.shields.io/github/stars/yingpengma/Awesome-Story-Generation?style=social&amp;label=Stars"
+              style="width: 5.5em; height: 1.25em; margin-bottom: -0.28em"
+            />
+            <br />
+            An extensive list of awesome papers about Story Generation /
+            Storytelling, primarily focusing on the era of Large Language Models
+            (LLMs). <br />
+            <span style="font-style: italic"
+              >Contributor, mainly maintained by
+              <a href="https://yingpengma.github.io/">Yingpeng Ma</a>.
+            </span>
+          </div>
+        </li>
+        <li>
+          <div class="pub-fig">
+            <img alt="dotfiles" src="./projects/dotfiles/dotfiles.png" />
           </div>
           <div class="pub-text">
             <a href="https://github.com/mantle2048/.dotfiles"
               ><strong>Dotfiles: Configuration files for Linux</strong></a
-            ><br />
+            >
+            <img
+              alt=""
+              src="https://img.shields.io/github/stars/mantle2048/.dotfiles?style=social&amp;label=stars"
+              style="width: 4.5em; height: 1.25em; margin-bottom: -0.28em"
+            />
+            <br />
             My linux configuration dotfiles (including neovim/astronvim, tmux,
-            bash, jupyter, etc). I am a vimer :-).
+            bash, jupyter, etc).<br />
+            <span style="font-style: italic"> I am a vimer (●'◡'●). </span>
           </div>
         </li>
         <li>
@@ -390,17 +452,21 @@
             <img
               alt="rlplot"
               src="https://github.com/mantle2048/my_assets/raw/master/rlplot.png"
-              width="200"
-              height="119"
             />
           </div>
           <div class="pub-text">
             <a href="https://github.com/mantle2048/rlplot"
               ><strong>RL Plot: Reinforcement Learning Plot Library</strong></a
-            ><br />
+            >
+            <img
+              alt=""
+              src="https://img.shields.io/github/stars/mantle2048/rlplot?style=social&amp;label=stars"
+              style="width: 5.25em; height: 1.25em; margin-bottom: -0.28em"
+            />
+            <br />
             An easy to use and highly encapsulated RL plot library (including
             basic error bar lineplot and a wrapper to
-            <a href="https://github.com/google-research/rliable"> rliable</a>).
+            <a href="https://github.com/google-research/rliable"> rliable)</a>.
           </div>
         </li>
       </ul>
@@ -422,17 +488,12 @@
             >
             <br />
             Advisor: <a href="https://pfliu.com/">Pengfei Liu</a> &
-            <a href="https://mmlab.siat.ac.cn/yuqiao">Qiao Yu</a>
+            <a href="https://mmlab.siat.ac.cn/yuqiao">Yu Qiao</a>
           </div>
         </li>
         <li>
           <div class="pub-fig">
-            <img
-              alt="gair_logo"
-              src="./images/gair_logo.png"
-              width="200"
-              height="119"
-            />
+            <img alt="gair_logo" src="./images/gair_logo.png" />
           </div>
           <div class="pub-text">
             <strong
@@ -440,7 +501,7 @@
               Now)</strong
             >
             <br />
-            Advisor: <a href="https://pfliu.com/">Pengfei Liu</a>
+            <a href="https://plms.ai/">Homepage</a>
           </div>
         </li>
         <li>
@@ -461,7 +522,13 @@
             Advisor: Sijia Xu
           </div>
         </li>
-        <div class="update">Last Update: May 17, 2024</div>
+        <div class="update">Last Update: May 18, 2024</div>
+        <div class="update">
+          <a href="https://hits.seeyoufarm.com"
+            ><img
+              src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmantle2048.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visitor&edge_flat=false"
+          /></a>
+        </div>
       </ul>
     </main>
   </body>
