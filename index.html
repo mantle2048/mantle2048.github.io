@@ -29,7 +29,8 @@
       body {
         height: 50px;
         width: 1050px;
-        transform: scale(0.75); /* reduce by 80% */
+        transform: scale(0.75);
+        /* reduce by 80% */
         font-family: sans-serif;
         font-size: calc(15px + 0.05vw);
         color: var(--fg-color);
@@ -39,16 +40,16 @@
       }
 
       /* main { */
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        width: 90vw;
-        max-width: var(--max-content-width);
-        padding: 2rem 0;
-        background-color: var(--bg-color);
-        min-height: 90vh;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      width: 90vw;
+      max-width: var(--max-content-width);
+      padding: 2rem 0;
+      background-color: var(--bg-color);
+      min-height: 90vh;
       }
 
       h1,
@@ -79,7 +80,7 @@
         padding-left: 0;
       }
 
-      #publist > * {
+      #publist>* {
         margin-bottom: 1.2em;
         display: flex;
         flex-wrap: wrap;
@@ -90,6 +91,7 @@
         color: #1772d0;
         text-decoration: none;
       }
+
       a:focus,
       a:hover {
         color: #f09228;
@@ -125,11 +127,13 @@
         width: 250px;
         border-radius: 40px;
       }
+
       .update {
         padding-right: 8px;
         margin: 0;
         text-align: right;
       }
+
       .faceImg {
         height: 200px;
         width: 200px;
@@ -137,10 +141,12 @@
         vertical-align: middle;
         border-radius: 100%;
       }
+
       .faceImg {
         background: url(./images/icon.png) no-repeat;
         background-size: 100% 100%;
       }
+
       .faceImg:hover {
         -webkit-animation: imageAnimation 60s 1;
         -moz-animation: imageAnimation 60s 1;
@@ -148,7 +154,9 @@
         -ms-animation: imageAnimation 60s 1;
         animation: imageAnimation 60s 1;
       }
+
       @-webkit-keyframes imageAnimation {
+
         0%,
         79.9999999% {
           background: url(./images/3.png) no-repeat;
@@ -252,8 +260,8 @@
       <ul>
         <li>
           <span style="font-style: italic"> 2023.09 - &nbsp;&nbsp; Now</span
-          >&nbsp;&nbsp; : <strong>Ph.D. student</strong> in Computer Science,
-          Fudan University
+          >&nbsp;&nbsp; : <strong>Ph.D. student</strong>
+          in Computer Science, Fudan University
         </li>
         <li>
           <span style="font-style: italic"> 2020.09 - 2023.06</span> :
@@ -272,35 +280,6 @@
         <li>
           <div class="pub-fig">
             <img
-              alt="Weak-to-Strong Figure"
-              src="./projects/Weak2Strong/Weak2Strong.png"
-              width="200"
-              height="119"
-            />
-          </div>
-          <div class="pub-text">
-            <a href="https://arxiv.org/abs/2407.13647">
-              <strong>Weak-to-Strong Reasoning
-              </strong> </a><br />
-            Yuqing Yang, <span style="font-weight: 600">Yan Ma</span>, Pengfei Liu
-            <br />
-            <span style="font-style: italic"
-              >Arxiv Preprint</span
-            >, 2024
-            <div>
-              <a href="https://arxiv.org/abs/2407.13647">arxiv</a> /
-              <a href="https://github.com/GAIR-NLP/weak-to-strong-reasoning">code</a>
-              <img
-                alt=""
-                src="https://img.shields.io/github/stars/GAIR-NLP/weak-to-strong-reasoning?style=social&amp;label=Stars"
-                style="width: 5em; height: 1.25em; margin-bottom: -0.28em"
-              />
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="pub-fig">
-            <img
               alt="Anole Figure"
               src="./projects/Anole/Anole.png"
               width="200"
@@ -309,13 +288,15 @@
           </div>
           <div class="pub-text">
             <a href="https://arxiv.org/abs/2407.06135">
-              <strong>ANOLE: An Open, Autoregressive, Native Large Multimodal Models for Interleaved Image-Text Generation
-              </strong> </a><br />
-            Ethan Chern*, Jiadi Su*, <span style="font-weight: 600">Yan Ma*</span>, Pengfei Liu
+              <strong
+                >ANOLE: An Open, Autoregressive, Native Large Multimodal Models
+                for Interleaved Image-Text Generation
+              </strong> </a
+            ><br />
+            Ethan Chern*, Jiadi Su*,
+            <span style="font-weight: 600">Yan Ma*</span>, Pengfei Liu
             <br />
-            <span style="font-style: italic"
-              >Arxiv Preprint</span
-            >, 2024
+            <span style="font-style: italic">Arxiv Preprint</span>, 2024
             <div>
               <a href="https://arxiv.org/abs/2407.06135">arxiv</a> /
               <a href="https://github.com/GAIR-NLP/Anole">code</a>
@@ -338,13 +319,19 @@
           </div>
           <div class="pub-text">
             <a href="https://arxiv.org/abs/2406.12753">
-              <strong>OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning for Superintelligent AI
-              </strong> </a><br />
-            Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou, Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao, Yiyuan Li, Fan Zhou, Steffi Chern, Yiwei Qin,  <span style="font-weight: 600">Yan Ma</span>, Jiadi Su, Yixiu Liu, Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu.
+              <strong
+                >OlympicArena: Benchmarking Multi-discipline Cognitive Reasoning
+                for Superintelligent AI
+              </strong> </a
+            ><br />
+            Zhen Huang, Zengzhi Wang, Shijie Xia, Xuefeng Li, Haoyang Zou,
+            Ruijie Xu, Run-Ze Fan, Lyumanshan Ye, Ethan Chern, Yixin Ye, Yikai
+            Zhang, Yuqing Yang, Ting Wu, Binjie Wang, Shichao Sun, Yang Xiao,
+            Yiyuan Li, Fan Zhou, Steffi Chern, Yiwei Qin,
+            <span style="font-weight: 600">Yan Ma</span>, Jiadi Su, Yixiu Liu,
+            Yuxiang Zheng, Shaoting Zhang, Dahua Lin, Yu Qiao, Pengfei Liu.
             <br />
-            <span style="font-style: italic"
-              >Arxiv Preprint</span
-            >, 2024
+            <span style="font-style: italic">Arxiv Preprint</span>, 2024
             <div>
               <a href="https://arxiv.org/abs/2406.12753">arxiv</a> /
               <a href="https://github.com/GAIR-NLP/OlympicArena">code</a>
@@ -360,6 +347,42 @@
       <h2>Publication</h2>
       <hr />
       <ul id="publist">
+        <li>
+          <div class="pub-fig">
+            <img
+              alt="Weak-to-Strong Figure"
+              src="./projects/Weak2Strong/Weak2Strong.png"
+              width="200"
+              height="119"
+            />
+          </div>
+          <div class="pub-text">
+            <a href="https://arxiv.org/abs/2407.13647">
+              <strong>Weak-to-Strong Reasoning </strong> </a
+            ><br />
+            Yuqing Yang, <span style="font-weight: 600">Yan Ma</span>, Pengfei
+            Liu
+            <br />
+            <span style="font-style: italic"
+              >Findings of Empirical Methods in Natural Language Processing (<a
+                href="https://2024.emnlp.org/"
+                >EMNLP Findings</a
+              >)</span
+            >, 2024
+            <div>
+              <a href="https://arxiv.org/abs/2407.13647">paper</a> /
+              <a href="https://arxiv.org/abs/2407.13647">arxiv</a> /
+              <a href="https://github.com/GAIR-NLP/weak-to-strong-reasoning"
+                >code</a
+              >
+              <img
+                alt=""
+                src="https://img.shields.io/github/stars/GAIR-NLP/weak-to-strong-reasoning?style=social&amp;label=Stars"
+                style="width: 5em; height: 1.25em; margin-bottom: -0.28em"
+              />
+            </div>
+          </div>
+        </li>
         <li>
           <div class="pub-fig">
             <img
@@ -613,7 +636,7 @@
             Advisor: Sijia Xu
           </div>
         </li>
-        <div class="update">Last Update: July 19, 2024</div>
+        <div class="update">Last Update: Sep 20, 2024</div>
         <div class="update">
           <a href="https://hits.seeyoufarm.com"
             ><img
